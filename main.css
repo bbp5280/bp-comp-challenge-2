@@ -1,0 +1,413 @@
+body{
+  font-family: 'montserrat', sans-serif;
+}
+
+main{
+  font-size: 1em;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/scare-floor.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  background: #99b1ef;
+  height:17vh;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+  float: left;
+  padding-top: 4.5em;
+}
+
+li{
+  display: inline-block;
+  padding: 0 1.25em 0 0;
+  font-size: 120%;
+}
+
+li:hover{
+  color: #fff;
+}
+
+.user-login:hover{
+  color: #fff;
+}
+
+.user-login{
+  margin: .5em 2em 0 0;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.nav-img{
+  padding-right: .5em;
+}
+
+
+
+.logo{
+  display: block;
+  margin-top: .25em;
+  margin-left: 43%;
+  margin-right: 3%;
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1{
+  font-size: 200%;
+  padding: 1em 0 1em .5em;
+  color: #fff;
+}
+
+.card{
+  width:23%;
+  display: inline-block;
+  height: 295px;
+  background: #dedbc6;
+  margin: 1em .1em 0 1em;
+  line-height: 102%
+}
+
+.cicle-arrow{
+  padding: 1em 0 0 1.25em;
+}
+
+h2{
+    font-size: 100%;
+    font-weight: bold;
+    padding: .25em 0 .25em .5em;
+    overflow-y: scroll;
+    height: 14px;
+  }
+
+
+.card p{
+  padding-left: .75em;
+  padding-right: 1em;
+}
+
+.nickname{
+  font-size: 80%;
+  font-weight: lighter;
+  padding-bottom: 1em;
+  padding-top: .25em;
+}
+
+.rank{
+  color: #fff;
+  float: right;
+  font-size: 80%;
+  padding: .75em 0 0 0;
+  letter-spacing: .025em;
+}
+.rank-span{
+  font-size: 220%;
+  line-height: 1em;
+}
+.p-url{
+  font-size: 80%;
+  overflow: scroll;
+  padding-bottom: 1em;
+  overflow: scroll;
+}
+.url{
+  background-color: #99b1ef;
+  margin: 0 .5em .25em .5em;
+}
+.hometown{
+  font-size: 80%;
+  padding-bottom: 1em;
+}
+.scare-total{
+  font-size: 80%;
+  padding-bottom: 1em;
+}
+.mega-watts{
+  font-weight: bold;
+  letter-spacing: .04em;
+}
+
+.town,
+.mega-watts{
+  font-size: 120%;
+}
+
+.ghost{
+  width:23%;
+  display: inline-block;
+  height: 295px;
+  margin: 1em .1em 0 1em;
+  line-height: 102%
+}
+
+
+.image{
+  height:37%
+}
+
+.image-1{
+  /*background-image:  url('images/sully-front.jpg');*/
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/sully-front.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*opacity: 0.75;*/
+}
+
+.image-2{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/randal-front.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-3{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/bob-front.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-4{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/dorothy-front.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-5{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/kowalski-front.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-6{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/george-frong.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-7{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/carla-front.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-8{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/ted-front.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+@media (max-width: 1110px){
+  .logo{
+    margin-left: 40%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 1049px){
+  .logo{
+    margin-left: 38%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 1071px){
+  .logo{
+    margin-left: 50%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 1070px){
+  .logo{
+    margin-left: 35%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 1000px){
+  .logo{
+    margin-left: 35%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 990px){
+  .logo{
+    margin-left: 30%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 955px){
+  .logo{
+    margin-left: 28%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 879px){
+  .logo{
+    margin-left: 25%;
+    margin-right: 4%;
+  }
+
+  .card{
+    width:30%;
+  }
+}
+
+@media (max-width: 845px){
+  .logo{
+    margin-left: 23%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 825px){
+  .logo{
+    margin-left: 20%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 790px){
+  .logo{
+    margin-left: 16%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 745px){
+  .logo{
+    margin-left: 13%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 725px){
+  .logo{
+    margin-left: 43%;
+    margin-right: 5%;
+  }
+  ul{
+    padding-top: 1em;
+    display: block;
+  }
+  li{
+    display: block;
+  }
+}
+
+@media (max-width: 660px){
+  .logo{
+    margin-left: 43%;
+    margin-right: 5%;
+  }
+  .card{
+    width: 45%;
+}
+
+@media (max-width: 505px){
+  .logo{
+    margin-left: 35%;
+    margin-right: 8%;
+  }
+
+@media (max-width: 460px){
+  .logo{
+  margin-left: 30%;
+  margin-right: 10%;
+  }
+}
+
+@media (max-width: 440px){
+      .logo{
+        margin-left: 27%;
+        margin-right: 10%;
+      }
+}
+
+@media (max-width: 440px){
+        .logo{
+          margin-left: 27%;
+          margin-right: 10%;
+        }
+  }
+
+  @media (max-width: 420px){
+          .logo{
+            margin-left: 25%;
+            margin-right: 7%;
+          }
+          .card{
+            width: 90%;
+        }
+    }
+
+
+    @media (max-width: 385px){
+      .logo{
+        margin-left: 38%;
+        margin-right: 15%;
+      }
+  }
+
+  @media (max-width: 375px){
+    .logo{
+      position: relative;
+      top: -30px;
+      left: 15px;
+    }
+    .user-login{
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  @media (max-width: 330px){
+    .logo{
+      position: relative;
+      top: -73px;
+      left: 15px;
+    }
+    .user-login{
+      position: relative;
+      top: -75px;
+      left: 15px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  @media (min-width: 1620px) {
+    .logo{
+      margin-left: 90%;
+      margin-right: 5%;
+    }
+    .card{
+      height: 400px;
+    }
+
+  }
