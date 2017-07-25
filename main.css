@@ -12,7 +12,7 @@ main{
 
 header{
   background: #99b1ef;
-  height:17vh;
+  height:13vh;
 }
 
 ul{
@@ -216,7 +216,94 @@ h2{
   background-size: cover;
 }
 
+@media (min-width: 1600px){
+  .logo{
+    position: relative;
+    top: 50px;
+    left: 165px;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    float: left;
+    padding-top: 4.5em;
+  }
+  .card{
+    width:23%;
+    display: inline-block;
+    height: 500px;
+    background: #dedbc6;
+    margin: 1em .1em 0 1em;
+    line-height: 135%;
+    letter-spacing: .075em;
+  }
 
+  .cicle-arrow{
+    padding: 1em 0 0 1.25em;
+  }
+
+  h2{
+      font-size: 150%;
+      font-weight: bold;
+      padding: .75em 0 .75em 1em;
+      overflow-y: scroll;
+      height: 14px;
+    }
+
+
+  .card p{
+    padding-left: 1.25em;
+    padding-right: 1.5em;
+  }
+
+  .nickname{
+    font-size: 120%;
+    font-weight: lighter;
+    padding-bottom: 1.5em;
+    padding-top: .75em;
+  }
+
+  .rank{
+    color: #fff;
+    float: right;
+    font-size: 120%;
+    padding: 1.25em 0 0 0;
+    /*letter-spacing: .025em;*/
+  }
+  .rank-span{
+    font-size: 300%;
+    line-height: 1.5em;
+  }
+  .p-url{
+    font-size: 120%;
+    overflow: scroll;
+    padding-bottom: 1.5em;
+    overflow: scroll;
+  }
+  .url{
+    background-color: #99b1ef;
+    margin: 0 1em .5em 1em;
+  }
+  .hometown{
+    font-size: 120%;
+    padding-bottom: 1.5em;
+  }
+  .scare-total{
+    font-size: 120%;
+    padding-bottom: 1.5em;
+  }
+  .mega-watts{
+    font-weight: bold;
+    /*letter-spacing: .04em;*/
+  }
+
+  .town,
+  .mega-watts{
+    font-size: 120%;
+  }
+
+}
 
 @media (max-width: 1110px){
   .logo{
@@ -401,10 +488,10 @@ h2{
     }
   }
 
-  @media (min-width: 1620px) {
+  @media (min-width: 1600px) {
     .logo{
-      margin-left: 90%;
-      margin-right: 5%;
+      position: relative;
+      top:300px;
     }
     .card{
       height: 400px;
